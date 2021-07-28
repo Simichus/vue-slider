@@ -1,0 +1,36 @@
+#carousel {
+  height: 450px;
+}
+
+#carousel img {
+  display: none;
+  max-height: 100%;
+}
+
+#carousel img.active {
+  display: inline-block;
+}
+
+i.fas.fa-4x {
+  cursor: pointer;
+}
+
+#scroll-dots {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#scroll-dots .dot {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#scroll-dots .dot.active {
+  background-color: dodgerblue;
+}
